@@ -3,3 +3,15 @@ django-m startproject project_name
 
 CREATING NEW APP IN THE PROJECT DIRECTORY
 python manage.py startapp application_name
+
+COMMAND FOR RUNNING DJANGO APPLICATION
+python manage.py runserver
+
+COMMAND FOR GENERATING SQL STATEMENTS
+python manage.py makemigrations
+
+COMMAND FOR EXECUTING SQL STATEMENTS
+python manage.py migrate file_name
+
+COMMAND FOR EXECUTING SQL STATEMENTS FOR ALL FILES
+python manage.py migrate all
