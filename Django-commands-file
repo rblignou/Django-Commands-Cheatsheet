@@ -1,5 +1,5 @@
 ******COMMAND FOR CREATING NEW PROJECT DIRECTORY******
-django-m startproject project_name
+django-admin startproject project_name
 
 ******CREATING NEW APP IN THE PROJECT DIRECTORY******
 python manage.py startapp application_name
