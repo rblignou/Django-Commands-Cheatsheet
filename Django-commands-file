@@ -17,7 +17,8 @@ migrations and 6 more files which are given below.
 4. models.py
 5. tests.py
 6. views.py
-Inside the migrations folder __init__.py file is created. )
+Inside the migrations folder __init__.py file is created. 
+Now register the app name in the settings.py which is inside the project_name folder.)
 
 ******COMMAND FOR RUNNING DJANGO APPLICATION******
 python manage.py runserver
