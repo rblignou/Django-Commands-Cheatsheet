@@ -21,22 +21,22 @@
 - Inside the migrations folder __init__.py file is created. 
 - Now register the app name in the settings.py which is inside the project_name folder.)
 
-******COMMAND FOR RUNNING DJANGO APPLICATION******
-python manage.py runserver
+## ******COMMAND FOR RUNNING DJANGO APPLICATION******
+### python manage.py runserver
 ( When we run this coomand for first time a db.sqlite3 file is created. This command runs the server for django application )
 
-******COMMAND FOR CHECK DJANGO VERSION******
-python -m django --version
+## ******COMMAND FOR CHECK DJANGO VERSION******
+### python -m django --version
 
-******COMMAND FOR OPENING IPYTHON SHELL******
-python manage.py shell
+## ******COMMAND FOR OPENING IPYTHON SHELL******
+### python manage.py shell
 
-******COMMAND FOR VERIFYING DATABASE CONNECTION******
+## ******COMMAND FOR VERIFYING DATABASE CONNECTION******
 from django.db import connection
 cursor = connection.cursor()
 (If nothing happens it means database has configured successfully)
 
-******COMMAND FOR KNOW ABOUT OPTIONS IN MANAGE.PY******
+### ******COMMAND FOR KNOW ABOUT OPTIONS IN MANAGE.PY******
 python manage.py help
 
 (
@@ -82,14 +82,14 @@ Available subcommands:
 )
 
 
-******COMMAND FOR CREATING SUPERUSER FOR ADMIN-APP******
-python manage.py createsuperuser
+## ******COMMAND FOR CREATING SUPERUSER FOR ADMIN-APP******
+### python manage.py createsuperuser
 
-******COMMAND FOR GENERATING SQL STATEMENTS******
-python manage.py makemigrations
+## ******COMMAND FOR GENERATING SQL STATEMENTS******
+### python manage.py makemigrations
 
-******COMMAND FOR EXECUTING SQL STATEMENTS******
-python manage.py migrate file_name
+## ******COMMAND FOR EXECUTING SQL STATEMENTS******
+### python manage.py migrate file_name
 
-******COMMAND FOR EXECUTING SQL STATEMENTS FOR ALL FILES******
-python manage.py migrate
+## ******COMMAND FOR EXECUTING SQL STATEMENTS FOR ALL FILES******
+### python manage.py migrate
