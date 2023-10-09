@@ -1,24 +1,25 @@
-******COMMAND FOR CREATING NEW PROJECT DIRECTORY******
-django-admin startproject project_name
-( A folder is created with your project_name which contains another folder same as project_name and a python file manage.py is created. This Folder of project_name contains 5 files
-1. __init__.py
-2. asgi.py
-3. settings.py
-4. urls.py
-5. wsgi.py )
+# DJANGO TUTORIAL
+## ******COMMAND FOR CREATING NEW PROJECT DIRECTORY******
+### django-admin startproject project_name
+- When we execute the startproject command after django-admin cli then following files are directories are created-
+   - A folder is created with your project_name which contains another folder same as project_name and a python file manage.py is created. This Folder of project_name contains 5 files
+      - __init__.py
+      - asgi.py
+      - settings.py
+      - urls.py
+      - wsgi.py 
 
-******CREATING NEW APP IN THE PROJECT DIRECTORY******
-python manage.py startapp application_name
-( After entering inside project folder run the above command. After running the above command a folder of the given application name is created which contains a folder named as 
-migrations and 6 more files which are given below.
-1. __init__.py
-2. admin.py
-3. apps.py
-4. models.py
-5. tests.py
-6. views.py
-Inside the migrations folder __init__.py file is created. 
-Now register the app name in the settings.py which is inside the project_name folder.)
+## ******CREATING NEW APP IN THE PROJECT DIRECTORY******
+### python manage.py startapp application_name
+- After entering inside project folder run the above command. After running the above command a folder of the given application name is created which contains a folder named as migrations and 6 more files which are given below.
+   - __init__.py
+   - admin.py
+   - apps.py
+   - models.py
+   - tests.py
+   - views.py
+- Inside the migrations folder __init__.py file is created. 
+- Now register the app name in the settings.py which is inside the project_name folder.)
 
 ******COMMAND FOR RUNNING DJANGO APPLICATION******
 python manage.py runserver
