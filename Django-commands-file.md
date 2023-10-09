@@ -8,6 +8,7 @@
       - settings.py
       - urls.py
       - wsgi.py 
+- for checking all the cli options after django-admin use django-admin --help
 
 ## ******CREATING NEW APP IN THE PROJECT DIRECTORY******
 ### python manage.py startapp application_name
